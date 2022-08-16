@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dukungans",
+  "info": {
+    "singularName": "dukungan",
+    "pluralName": "dukungans",
+    "displayName": "Dukungan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama": {
+      "type": "string"
+    },
+    "Keterangan": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::foto.foto"
+    }
+  }
+}

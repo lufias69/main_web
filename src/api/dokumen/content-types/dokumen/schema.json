@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dokumens",
+  "info": {
+    "singularName": "dokumen",
+    "pluralName": "dokumens",
+    "displayName": "Dokumen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_dokumen": {
+      "type": "string"
+    },
+    "Deskripsi_dokumen": {
+      "type": "string"
+    },
+    "Link_download": {
+      "type": "string"
+    }
+  }
+}

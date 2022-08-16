@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "posts",
+  "info": {
+    "singularName": "post",
+    "pluralName": "posts",
+    "displayName": "Post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judulPost": {
+      "type": "string"
+    },
+    "isiPost": {
+      "type": "richtext"
+    },
+    "kategoris": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kategori.kategori",
+      "mappedBy": "post"
+    },
+    "foto": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::foto.foto"
+    },
+    "gallery": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::gallery.gallery"
+    }
+  }
+}

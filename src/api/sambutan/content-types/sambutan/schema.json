@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "sambutans",
+  "info": {
+    "singularName": "sambutan",
+    "pluralName": "sambutans",
+    "displayName": "Sambutan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_tokoh": {
+      "type": "string"
+    },
+    "Jabatan_tokoh": {
+      "type": "string"
+    },
+    "Sambutan": {
+      "type": "richtext"
+    },
+    "foto": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::foto.foto"
+    }
+  }
+}

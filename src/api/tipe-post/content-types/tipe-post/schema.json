@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipe_posts",
+  "info": {
+    "singularName": "tipe-post",
+    "pluralName": "tipe-posts",
+    "displayName": "Tipe_Post"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tipe_Post": {
+      "type": "string"
+    }
+  }
+}

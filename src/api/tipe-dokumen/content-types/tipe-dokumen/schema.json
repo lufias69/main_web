@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipe_dokumens",
+  "info": {
+    "singularName": "tipe-dokumen",
+    "pluralName": "tipe-dokumens",
+    "displayName": "Tipe_dokumen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Tipe_dokumen": {
+      "type": "string"
+    }
+  }
+}
